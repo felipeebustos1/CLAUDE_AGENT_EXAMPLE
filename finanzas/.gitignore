@@ -1,0 +1,13 @@
+# Documentos de clientes y notas de reuniones: no se versionan
+context/*
+!context/.gitkeep
+inputs/*
+!inputs/.gitkeep
+
+# Reportes generados
+/reporte-*.md
+
+# Archivos locales del sistema
+.DS_Store
+Thumbs.db
+*.swp
